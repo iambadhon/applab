@@ -1,0 +1,231 @@
+/*=====================xxl device start=====================*/
+/*=====================xxl device end=====================*/
+
+
+/*=====================xl device start=====================*/
+/*=====================xl device end=====================*/
+
+
+/*=====================lg device start=====================*/
+/*=====================lg device end=====================*/
+
+
+/*=====================md device start=====================*/
+/*=====================md device end=====================*/
+
+
+/*=====================sm device start=====================*/
+/*=====================sm device end=====================*/
+
+
+/*=====================xs device start=====================*/
+@media(max-width:575px) {
+    h1 {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+
+    .cmn_btn a {
+        padding: 1rem 2.5rem;
+    }
+
+    section {
+        padding: 6rem 0;
+    }
+
+    /*======nav section start======*/
+    .main_nav .menu {
+        background: var(--sixteenth-color);
+        padding-bottom: 1rem;
+    }
+
+    .main_nav .menu ul {
+        text-align: center;
+        padding: .5rem 0;
+    }
+
+    .main_nav .menu ul li {
+        margin: .2rem 0;
+    }
+
+    .main_nav .menu ul li a {
+        display: block;
+    }
+
+    .main_nav .menu_free_btn a {
+        display: block;
+        text-align: center;
+    }
+
+    /*======nav section end======*/
+
+    /*======banner section start======*/
+    #banner {
+        padding: 15rem 0 8rem 0;
+    }
+
+    #banner .banner_text {
+        padding-top: 10rem;
+        padding-left: 0;
+    }
+
+    #banner .trending h4 {
+        font-size: 1.6rem;
+        padding: .8rem 1rem .8rem 5rem;
+
+    }
+
+    #banner .banner_text h1 {
+        margin-bottom: 2.5rem;
+    }
+
+    #banner .banner_text .banner_text_btn a:last-child {
+        margin-top: 1rem;
+        padding: 1rem .2rem;
+    }
+
+    #banner .offset-1 {
+        margin-left: 0;
+    }
+
+    #banner .banner_img {
+        display: none;
+    }
+
+    /*======banner section end======*/
+
+    /*======apps features section start======*/
+    .apps_features_text {
+        text-align: center;
+    }
+
+    #apps_feature .apps_feature_head h2 {
+        margin-bottom: 2.5rem;
+        padding-right: 0;
+    }
+
+    #apps_feature .apps_features_item {
+        margin-bottom: 6rem;
+        padding-left: 0;
+        padding-top: 10rem;
+    }
+
+    #apps_feature .apps_features_text .apps_features_item .apps_feature_item_icon {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*======apps features section end======*/
+
+    /*======jackpot section start======*/
+    #jackpot .jackpot_head {
+        margin-bottom: 6rem;
+    }
+
+    #jackpot .jackpot_tittle {
+        border-right: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #jackpot .jackpot_docs {
+        padding-left: 0;
+        padding-top: 2.5rem;
+        text-align: center;
+    }
+
+    #jackpot .jackpot_item {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    #jackpot .div_numbering:last-child .jackpot_item {
+        margin-bottom: 0;
+    }
+
+    #jackpot .jackpot_item .jackpot_item_pic {
+        margin-bottom: 0;
+        margin: 0 auto 1.5rem auto;
+    }
+
+    /*======jackpot section end======*/
+
+    /*======code integration section start======*/
+    #integration .integration_docs {
+        padding-left: 0;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    /*======code integration section end======*/
+
+    /*======why choose our app section start======*/
+    #choose_our_app .choose_our_app_head h2 {
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    #choose_our_app .choose_our_app_item {
+        padding-top: 10rem;
+        margin-bottom: 6rem;
+    }
+
+    #choose_our_app .div_numbering:nth-child(4) .choose_our_app_item {
+        margin-bottom: 6rem;
+    }
+
+    #choose_our_app .div_numbering:nth-child(5) .choose_our_app_item {
+        margin-bottom: 6rem;
+    }
+
+    /*======why choose our app section end======*/
+
+    /*======ultimate features section start======*/
+    #ultimate_features {
+        padding-top: 36rem;
+    }
+
+    #ultimate_features .ultimate_features_img {
+        top: 4rem;
+    }
+
+    #ultimate_features .ultimate_features_img img {
+        max-width: 26rem;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_tittle {
+        text-align: center;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_tittle h2 {
+        padding-right: 0;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_item {
+        text-align: center;
+    }
+
+    #ultimate_features .div_numbering:nth-child(3) .ultimate_features_item {
+        margin-bottom: 6rem;
+    }
+
+    #ultimate_features .ultimate_features_item .ultimate_features_item_img {
+        margin-bottom: 0;
+        margin: 0 auto 2rem auto;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_feature_btn {
+        text-align: center;
+    }
+
+    /*======ultimate features section end======*/
+
+}
+
+/*=====================xs device end=====================*/
