@@ -47,6 +47,8 @@ $(function () {
         slidesToScroll: 1,
         prevArrow: ".testimonial_prev",
         nextArrow: '.testimonial_next',
+        autoplay: true,
+        autoplaySpeed: 4000,
     });
 
     //=====================testimonial end=====================//
