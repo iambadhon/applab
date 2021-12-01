@@ -11,34 +11,16 @@
 
 
 /*=====================md device start=====================*/
-/*=====================md device end=====================*/
+@media(min-width:768px) and (max-width:991px) {
 
-
-/*=====================sm device start=====================*/
-/*=====================sm device end=====================*/
-
-
-/*=====================xs device start=====================*/
-@media(max-width:575px) {
-    h1 {
-        font-size: 4rem;
-        line-height: 4.5rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-        line-height: 3.6rem;
-    }
-
-    .cmn_btn a {
-        padding: 1rem 2.5rem;
-    }
-
+    /*==reuseable css start==*/
     section {
         padding: 6rem 0;
     }
 
-    /*======nav section start======*/
+    /*==reuseable css end==*/
+
+    /*==nav section start==*/
     .main_nav .menu {
         background: var(--sixteenth-color);
         padding-bottom: 1rem;
@@ -62,7 +44,520 @@
         text-align: center;
     }
 
-    /*======nav section end======*/
+    /*==nav section end==*/
+
+    /*==banner section start==*/
+    #banner {
+        padding: 15rem 0 8rem 0;
+    }
+
+    #banner .offset-1 {
+        margin-left: 0;
+    }
+
+    #banner .banner_text {
+        padding-top: 10rem;
+        padding-left: 0;
+    }
+
+    /*==banner section end==*/
+
+    /*==companies section start==*/
+    .companis_logo {
+        margin: 0 6rem 6rem 6rem;
+    }
+
+    /*==companies section end==*/
+
+    /*==apps features section end==*/
+    #apps_feature .apps_features_img {
+        margin-top: 12rem;
+    }
+
+    #apps_feature .apps_feature_head {
+        margin-bottom: 6rem;
+    }
+
+    #apps_feature .apps_features_item {
+        margin-bottom: 4rem;
+    }
+
+    #apps_feature .apps_features_text .apps_features_item .apps_feature_item_icon {
+        top: 3rem;
+    }
+
+    /*==apps features section end==*/
+
+    /*==jackpot section start==*/
+    #jackpot .jackpot_head {
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+
+    #jackpot .jackpot_tittle {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #jackpot .center_align {
+        margin: 0 auto;
+    }
+
+    #jackpot .jackpot_docs {
+        padding-left: 0;
+        padding-top: 3rem;
+    }
+
+    #jackpot .jackpot_item {
+        margin-bottom: 5rem;
+        text-align: center;
+        position: relative;
+        padding-top: 10rem;
+    }
+
+    #jackpot .div_numbering:nth-child(3) .jackpot_item {
+        margin-bottom: 0;
+    }
+
+    #jackpot .jackpot_item .jackpot_item_pic {
+        margin-bottom: 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    /*==jackpot section end==*/
+
+    /*==code integration section start==*/
+    #integration .integration_docs {
+        padding-left: 1rem;
+        padding-top: 0;
+    }
+
+    /*==code integration section end==*/
+
+    /*==why choose our app section start==*/
+    #choose_our_app .div_numbering:nth-child(4) .choose_our_app_item {
+        margin-bottom: 7rem;
+    }
+
+    /*==why choose our app section end==*/
+
+    /*==ultimate features section start==*/
+    #ultimate_features {
+        padding-top: 61rem;
+    }
+
+    #ultimate_features .ultimate_features_img {
+        top: 4rem;
+    }
+
+    #ultimate_features .ultimate_features_img img {
+        max-width: 50rem;
+    }
+
+    #ultimate_features .ultimate_features_main {
+        text-align: center;
+    }
+
+    #ultimate_features .center_align {
+        margin: 0 auto;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_tittle h2 {
+        padding-right: 0;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_item {
+        margin-bottom: 6rem;
+        padding-top: 10rem;
+        position: relative;
+    }
+
+    #ultimate_features .ultimate_features_item .ultimate_features_item_img {
+        margin-bottom: 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*==ultimate features section end==*/
+
+    /*==testimonial section start==*/
+
+    #testimonial .center_align {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #testimonial .testimonial_main .testimonial_tittle {
+        margin-bottom: 6rem;
+    }
+
+    #testimonial .testimonial_img {
+        padding-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    /*==testimonial section end==*/
+
+    /*==testimonial section end==*/
+    #FAQ .faq_item {
+        padding: 0 2rem;
+    }
+
+    .accordion-button::before {
+        top: 3.4rem;
+        right: 1.25rem;
+    }
+
+    /*==testimonial section end==*/
+
+}
+
+/*=====================md device end=====================*/
+
+
+/*=====================sm device start=====================*/
+@media(min-width:576px) and (max-width:767px) {
+
+    /*==reuseable css start==*/
+    h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+
+    section {
+        padding: 6rem 0;
+    }
+
+    /*==reuseable css end==*/
+
+    /*==nav section start==*/
+    .main_nav .menu {
+        background: var(--sixteenth-color);
+        padding-bottom: 1rem;
+    }
+
+    .main_nav .menu ul {
+        text-align: center;
+        padding: .5rem 0;
+    }
+
+    .main_nav .menu ul li {
+        margin: .2rem 0;
+    }
+
+    .main_nav .menu ul li a {
+        display: block;
+    }
+
+    .main_nav .menu_free_btn a {
+        display: block;
+        text-align: center;
+    }
+
+    /*==nav section end==*/
+
+    /*======banner section start======*/
+    #banner {
+        padding: 15rem 0 8rem 0;
+    }
+
+    #banner .banner_text {
+        padding-top: 10rem;
+        padding-left: 0;
+    }
+
+    #banner .banner_text h1 {
+        margin-bottom: 2.5rem;
+    }
+
+    #banner .offset-1 {
+        margin-left: 0;
+    }
+
+    #banner .banner_img {
+        display: none;
+    }
+
+    /*==banner section end==*/
+
+    /*==companies section start==*/
+    .companis_logo {
+        margin: 0 4rem 5rem 4rem;
+    }
+
+    /*==companies section end==*/
+
+    /*==apps features section start==*/
+    .apps_features_text {
+        text-align: center;
+    }
+
+    #apps_feature .apps_feature_head h2 {
+        margin-bottom: 2.5rem;
+        padding-right: 0;
+    }
+
+    #apps_feature .apps_features_item {
+        margin-bottom: 6rem;
+        padding-left: 0;
+        padding-top: 10rem;
+    }
+
+    #apps_feature .apps_features_text .apps_features_item .apps_feature_item_icon {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*==apps features section end==*/
+
+    /*==jackpot section start==*/
+    #jackpot .jackpot_head {
+        margin-bottom: 6rem;
+    }
+
+    #jackpot .jackpot_tittle {
+        border-right: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #jackpot .jackpot_docs {
+        padding-left: 0;
+        padding-top: 2.5rem;
+        text-align: center;
+    }
+
+    #jackpot .jackpot_item {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    #jackpot .div_numbering:last-child .jackpot_item {
+        margin-bottom: 0;
+    }
+
+    #jackpot .jackpot_item .jackpot_item_pic {
+        margin-bottom: 0;
+        margin: 0 auto 1.5rem auto;
+    }
+
+    /*==jackpot section end==*/
+
+    /*==code integration section start==*/
+    #integration .integration_docs {
+        padding-left: 0;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    /*======code integration section end==*/
+
+    /*==why choose our app section start==*/
+    #choose_our_app .choose_our_app_head h2 {
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    #choose_our_app .choose_our_app_item {
+        padding-top: 10rem;
+        margin-bottom: 6rem;
+    }
+
+    #choose_our_app .div_numbering:nth-child(4) .choose_our_app_item {
+        margin-bottom: 6rem;
+    }
+
+    #choose_our_app .div_numbering:nth-child(5) .choose_our_app_item {
+        margin-bottom: 6rem;
+    }
+
+    /*==why choose our app section end==*/
+
+    /*==ultimate features section start==*/
+    #ultimate_features {
+        padding-top: 55rem;
+    }
+
+    #ultimate_features .ultimate_features_img {
+        top: 4rem;
+    }
+
+    #ultimate_features .ultimate_features_img img {
+        max-width: 44rem;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_tittle {
+        text-align: center;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_tittle h2 {
+        padding-right: 0;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_features_item {
+        text-align: center;
+    }
+
+    #ultimate_features .div_numbering:nth-child(3) .ultimate_features_item {
+        margin-bottom: 6rem;
+    }
+
+    #ultimate_features .ultimate_features_item .ultimate_features_item_img {
+        margin-bottom: 0;
+        margin: 0 auto 2rem auto;
+    }
+
+    #ultimate_features .ultimate_features_main .ultimate_feature_btn {
+        text-align: center;
+    }
+
+    /*==ultimate features section end==*/
+
+    /*==price section start==*/
+    #price .price_nav li button {
+        padding: 1rem 2rem;
+    }
+
+    #price .div_numbering:first-child .price_item {
+        margin-bottom: 3rem;
+    }
+
+    /*==price section end==*/
+
+    /*==testimonial section start==*/
+    #testimonial .testimonial_img {
+        padding-top: 0;
+        margin-bottom: 4rem;
+    }
+
+    #testimonial .testimonial_main .testimonial_tittle {
+        padding-right: 0;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    #testimonial .testimonial_main .testimonial_tittle h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    /*==testimonial section end==*/
+
+    /*==FAQ section start==*/
+    #FAQ .faq_item {
+        padding: 0 1rem;
+    }
+
+    #FAQ .faq_item button {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    /*==FAQ section end==*/
+
+    /*==download section start==*/
+    .download_text {
+        text-align: center;
+    }
+
+    #download .download_text h2 {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+
+    #download .download_img {
+        margin-top: 5rem;
+    }
+
+    /*==download section end==*/
+
+    /*==footer section start==*/
+    #footer {
+        padding: 6rem 0 4rem 0;
+    }
+
+    .scroll_top {
+        right: 1.5rem;
+    }
+
+    .scroll_top i {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+    }
+
+    /*==footer section end==*/
+}
+
+/*=====================sm device end=====================*/
+
+
+/*=====================xs device start=====================*/
+@media(max-width:575px) {
+
+    /*==reuseable css start==*/
+    h1 {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+
+    .cmn_btn a {
+        padding: 1rem 2.5rem;
+    }
+
+    section {
+        padding: 6rem 0;
+    }
+
+    /*==reuseable css end==*/
+
+    /*==nav section start==*/
+    .main_nav .menu {
+        background: var(--sixteenth-color);
+        padding-bottom: 1rem;
+    }
+
+    .main_nav .menu ul {
+        text-align: center;
+        padding: .5rem 0;
+    }
+
+    .main_nav .menu ul li {
+        margin: .2rem 0;
+    }
+
+    .main_nav .menu ul li a {
+        display: block;
+    }
+
+    .main_nav .menu_free_btn a {
+        display: block;
+        text-align: center;
+    }
+
+    /*==nav section end==*/
 
     /*======banner section start======*/
     #banner {
@@ -97,9 +592,16 @@
         display: none;
     }
 
-    /*======banner section end======*/
+    /*==banner section end==*/
 
-    /*======apps features section start======*/
+    /*==companies section start==*/
+    .companis_logo {
+        margin: 0 4rem 5rem 4rem;
+    }
+
+    /*==companies section end==*/
+
+    /*==apps features section start==*/
     .apps_features_text {
         text-align: center;
     }
@@ -121,9 +623,9 @@
         transform: translateX(-50%);
     }
 
-    /*======apps features section end======*/
+    /*==apps features section end==*/
 
-    /*======jackpot section start======*/
+    /*==jackpot section start==*/
     #jackpot .jackpot_head {
         margin-bottom: 6rem;
     }
@@ -154,18 +656,18 @@
         margin: 0 auto 1.5rem auto;
     }
 
-    /*======jackpot section end======*/
+    /*==jackpot section end==*/
 
-    /*======code integration section start======*/
+    /*==code integration section start==*/
     #integration .integration_docs {
         padding-left: 0;
         padding-top: 3rem;
         text-align: center;
     }
 
-    /*======code integration section end======*/
+    /*======code integration section end==*/
 
-    /*======why choose our app section start======*/
+    /*==why choose our app section start==*/
     #choose_our_app .choose_our_app_head h2 {
         padding: 0;
         margin-bottom: 3rem;
@@ -184,9 +686,9 @@
         margin-bottom: 6rem;
     }
 
-    /*======why choose our app section end======*/
+    /*==why choose our app section end==*/
 
-    /*======ultimate features section start======*/
+    /*==ultimate features section start==*/
     #ultimate_features {
         padding-top: 36rem;
     }
@@ -196,7 +698,7 @@
     }
 
     #ultimate_features .ultimate_features_img img {
-        max-width: 26rem;
+        max-width: 28rem;
     }
 
     #ultimate_features .ultimate_features_main .ultimate_features_tittle {
@@ -224,8 +726,116 @@
         text-align: center;
     }
 
-    /*======ultimate features section end======*/
+    /*==ultimate features section end==*/
 
+    /*==price section start==*/
+    #price .price_nav li button {
+        padding: 1rem 2rem;
+    }
+
+    #price .div_numbering:first-child .price_item {
+        margin-bottom: 3rem;
+    }
+
+    /*==price section end==*/
+
+    /*==testimonial section start==*/
+    #testimonial .testimonial_img {
+        padding-top: 0;
+        margin-bottom: 4rem;
+    }
+
+    #testimonial .testimonial_main .testimonial_tittle {
+        padding-right: 0;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    #testimonial .testimonial_main .testimonial_tittle h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    #testimonial .testimonial_main .testimonial_prev {
+        display: none !important;
+    }
+
+    #testimonial .testimonial_main .testimonial_next {
+        display: none !important;
+    }
+
+    /*==testimonial section end==*/
+
+    /*==FAQ section start==*/
+    #FAQ .faq_item {
+        padding: 0;
+    }
+
+    #FAQ .faq_item button {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+    }
+
+    /*==FAQ section end==*/
+
+    /*==download section start==*/
+    .download_text {
+        text-align: center;
+    }
+
+    #download .download_text h2 {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+
+    #download .download_text .download_btn a {
+        width: 12.2rem;
+    }
+
+    #download .download_text .download_btn a img {
+        width: 100%;
+    }
+
+    #download .download_text .download_btn a:first-child {
+        margin-right: .5rem;
+    }
+
+    .download_img {
+        margin-top: 4rem;
+    }
+
+    /*==download section end==*/
+
+    /*==footer section start==*/
+    #footer {
+        padding: 6rem 0 4rem 0;
+    }
+
+    #footer .footer_logo {
+        margin-bottom: 3rem;
+    }
+
+    #footer .footer_menu ul li {
+        margin: 0 .2rem;
+    }
+
+    #footer .copyright {
+        padding: 0 5rem;
+    }
+
+    .scroll_top {
+        right: 1.5rem;
+    }
+
+    .scroll_top i {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+    }
+
+    /*==footer section end==*/
 }
 
 /*=====================xs device end=====================*/

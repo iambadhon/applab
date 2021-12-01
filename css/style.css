@@ -731,7 +731,6 @@ section {
 }
 
 #testimonial .testimonial_main .testimonial_tittle {
-    padding-right: 4rem;
     margin-bottom: 4rem;
 }
 
@@ -887,7 +886,7 @@ section {
 }
 
 #FAQ .faq_item {
-    background: var(--sixth-color) !important;
+    background: var(--sixth-color);
     border: 0;
     margin-bottom: 1rem;
     padding: 0 3rem;
@@ -1066,6 +1065,7 @@ section {
     bottom: 2rem;
     right: 2rem;
     display: none;
+    z-index: 555;
 }
 
 .scroll_top i {
