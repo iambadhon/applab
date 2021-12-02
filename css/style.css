@@ -739,6 +739,10 @@ section {
     margin-bottom: 3rem;
 }
 
+#testimonial .testimonial_main .testimonial_slider .testimonial_slider_item {
+    padding: 0 2rem;
+}
+
 #testimonial .testimonial_main .testimonial_slider .testimonial_slider_item .testimonial_slider_item_text ul {
     margin-bottom: 2rem;
 }

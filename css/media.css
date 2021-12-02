@@ -1,12 +1,109 @@
 /*=====================xxl device start=====================*/
+@media(min-width:1400px) {
+
+    /*==jackpot section start==*/
+    #jackpot .jackpot_docs {
+        padding-top: 4rem;
+    }
+
+    /*==jackpot section end==*/
+
+    /*==testimonial section end==*/
+    #testimonial .testimonial_img {
+        padding-top: 5rem;
+    }
+
+    /*==testimonial section end==*/
+
+    /*==FAQ section end==*/
+    .accordion-button::before {
+        top: 3.449rem;
+        right: 1.25rem;
+    }
+
+    /*==FAQ section end==*/
+}
+
 /*=====================xxl device end=====================*/
 
 
 /*=====================xl device start=====================*/
+@media(min-width:1200px) and (max-width:1399px) {
+
+    /*==ultimate features section start==*/
+    #ultimate_features .ultimate_features_img {
+        top: 20rem;
+        width: 51%;
+    }
+
+    /*==ultimate features section end==*/
+
+    /*==FAQ section end==*/
+    .accordion-button::before {
+        top: 3.449rem;
+        right: 1.25rem;
+    }
+
+    /*==FAQ section end==*/
+}
+
 /*=====================xl device end=====================*/
 
 
 /*=====================lg device start=====================*/
+@media(min-width:992px) and (max-width:1199px) {
+
+    /*==jackpot section start==*/
+    #jackpot .jackpot_tittle {
+        padding-right: 5rem;
+    }
+
+    #jackpot .jackpot_docs {
+        padding-left: 4rem;
+    }
+
+    /*==jackpot section end==*/
+
+    /*==code integration section start==*/
+    #integration .integration_docs {
+        padding-left: 3rem;
+        padding-top: 6rem;
+    }
+
+    /*==code integration section end==*/
+
+    /*==why choose our app section start==*/
+    #choose_our_app .choose_our_app_head h2 {
+        padding: 0 4rem;
+        margin-bottom: 3rem;
+    }
+
+    /*==why choose our app section end==*/
+
+    /*==ultimate features section start==*/
+    #ultimate_features .ultimate_features_img {
+        top: 25rem;
+        width: 51%;
+    }
+
+    /*==ultimate features section end==*/
+
+    /*==testimonial section end==*/
+    #testimonial .testimonial_main .testimonial_tittle h2 {
+        font-size: 3.8rem;
+    }
+
+    /*==testimonial section end==*/
+
+    /*==testimonial section end==*/
+    .accordion-button::before {
+        top: 3.449rem;
+        right: 1.22rem;
+    }
+
+    /*==testimonial section end==*/
+}
+
 /*=====================lg device end=====================*/
 
 
@@ -48,7 +145,7 @@
 
     /*==banner section start==*/
     #banner {
-        padding: 15rem 0 8rem 0;
+        padding: 20rem 0 8rem 0;
     }
 
     #banner .offset-1 {
@@ -56,7 +153,7 @@
     }
 
     #banner .banner_text {
-        padding-top: 10rem;
+        padding-top: 5rem;
         padding-left: 0;
     }
 
@@ -113,6 +210,10 @@
         text-align: center;
         position: relative;
         padding-top: 10rem;
+    }
+
+    #jackpot .div_numbering:nth-child(3) {
+        margin: 0 auto;
     }
 
     #jackpot .div_numbering:nth-child(3) .jackpot_item {
@@ -218,7 +319,6 @@
     }
 
     /*==testimonial section end==*/
-
 }
 
 /*=====================md device end=====================*/
@@ -467,6 +567,39 @@
         font-size: 1.8rem;
         font-weight: 500;
         line-height: 3rem;
+    }
+
+    .accordion-button::after {
+        background-image: none;
+        background: none;
+    }
+
+    .accordion-button::before {
+        top: 50%;
+        right: .8rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        background: url(../images/faq-plus.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translateY(-50%) rotate(0deg);
+        -webkit-transform: translateY(-50%) rotate(0deg);
+        -moz-transform: translateY(-50%) rotate(0deg);
+        -ms-transform: translateY(-50%) rotate(0deg);
+        -o-transform: translateY(-50%) rotate(0deg);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: none;
+        width: 1.8rem;
+        height: .2rem;
+        background: var(--first-color);
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
     }
 
     /*==FAQ section end==*/
@@ -768,13 +901,41 @@
 
     /*==FAQ section start==*/
     #FAQ .faq_item {
-        padding: 0;
+        padding: 0 1rem;
     }
 
     #FAQ .faq_item button {
         font-size: 1.8rem;
         font-weight: 500;
-        line-height: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .accordion-button::after {
+        background-image: none;
+        background: none;
+    }
+
+    .accordion-button::before {
+        top: 50%;
+        right: .8rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        background: url(../images/faq-plus.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translateY(-50%) rotate(0deg);
+        -webkit-transform: translateY(-50%) rotate(0deg);
+        -moz-transform: translateY(-50%) rotate(0deg);
+        -ms-transform: translateY(-50%) rotate(0deg);
+        -o-transform: translateY(-50%) rotate(0deg);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: none;
+        width: 1.8rem;
+        height: .2rem;
+        background: var(--first-color);
     }
 
     /*==FAQ section end==*/
