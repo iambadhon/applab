@@ -159,13 +159,6 @@
 
     /*==banner section end==*/
 
-    /*==companies section start==*/
-    .companis_logo {
-        margin: 0 6rem 6rem 6rem;
-    }
-
-    /*==companies section end==*/
-
     /*==apps features section end==*/
     #apps_feature .apps_features_img {
         margin-top: 12rem;
@@ -393,13 +386,6 @@
     }
 
     /*==banner section end==*/
-
-    /*==companies section start==*/
-    .companis_logo {
-        margin: 0 4rem 5rem 4rem;
-    }
-
-    /*==companies section end==*/
 
     /*==apps features section start==*/
     .apps_features_text {
@@ -728,8 +714,8 @@
     /*==banner section end==*/
 
     /*==companies section start==*/
-    .companis_logo {
-        margin: 0 4rem 5rem 4rem;
+    #companies .companis_logo {
+        margin: 0rem 3rem;
     }
 
     /*==companies section end==*/

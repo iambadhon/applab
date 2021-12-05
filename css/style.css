@@ -335,11 +335,27 @@ section {
 /*=====================companies section start=====================*/
 #companies .companies_title {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
+}
+
+#companies .col {
+    margin-bottom: 2rem;
+}
+
+#companies .companis_logo {
+    border: .1rem solid var(--second-color);
+    margin: 0rem 1.5rem;
+    height: 12rem;
 }
 
 #companies .companis_logo a {
+    line-height: 12rem;
     display: inline-block;
+    padding: 0 2rem;
+}
+
+#companies .companis_logo a img {
+    display: inline-block !important;
 }
 
 /*=====================companies section end=====================*/
