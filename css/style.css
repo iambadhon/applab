@@ -356,6 +356,7 @@ section {
 
 #companies .companis_logo a img {
     display: inline-block !important;
+    max-width: 100%;
 }
 
 /*=====================companies section end=====================*/
